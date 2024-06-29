@@ -225,10 +225,19 @@ private fun DashboardScreen(
 private fun DashboardScreenTopBar() {
     CenterAlignedTopAppBar(
         title = {
-            Text(
-                text = "Study Smart",
-                style = MaterialTheme.typography.headlineMedium
-            )
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Spacer(modifier = Modifier.height(10.dp))
+                Text(
+                    text = "Study Smart",
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                Text(
+                    text = "~ grind for your grades",
+                    style = MaterialTheme.typography.titleSmall
+                )
+            }
         }
     )
 }
