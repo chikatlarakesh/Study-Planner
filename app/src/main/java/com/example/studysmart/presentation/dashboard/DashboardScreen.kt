@@ -230,11 +230,11 @@ private fun DashboardScreenTopBar() {
             ) {
                 Spacer(modifier = Modifier.height(10.dp))
                 Text(
-                    text = "Study Smart",
+                    text = "Study Planner",
                     style = MaterialTheme.typography.headlineMedium
                 )
                 Text(
-                    text = "~ grind for your grades",
+                    text = " ~No More Last-Minute Panic!",
                     style = MaterialTheme.typography.titleSmall
                 )
             }
